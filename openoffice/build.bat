@@ -1,0 +1,1 @@
+docker build -t audryus/openoffice:3.4.1 .

@@ -1,0 +1,1 @@
+docker run -p 8100:8100 audryus/openoffice:3.4.1

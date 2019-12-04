@@ -1,3 +1,5 @@
-set /p local_ip="This machine IP (Eg.:192.168.1.104): "
-set /p dir="Where Eclipse files will be? (Eg.: c:\eclipse-docker): "
-docker run -ti --rm -e DISPLAY=%local_ip%:0.0 -v %dir%:/home/developer audryus/jee-eclipse:12.2019.06
+call myip.bat
+call myip.bat
+echo Your Local IP: %myIp%
+"c:\Program Files\VcXsrv\xlaunch.exe" -run config.xlaunch
+docker run -ti --rm -p 8080:8080 -e DISPLAY=%myIp%:0.0 -v d:\eclipse-docker:/home/developer audryus/jee-eclipse:13.2019.09
