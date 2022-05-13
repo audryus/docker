@@ -1,0 +1,143 @@
+appConfig:
+  theme: one-dark
+  layout: auto
+  iconSize: large
+  language: pt
+pageInfo:
+  title: Home Lab
+  description: ''
+  navLinks:
+    - title: GitHub
+      path: https://github.com/audryus
+      target: newtab
+  footerText: ''
+sections:
+  - name: Media & Entertainment
+    icon: fas fa-photo-video
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 3
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: BetterBachelor
+        icon: favicon
+        url: https://rumble.com/c/BetterBachelor
+        id: 0_1956_betterbachelor
+      - title: YouTube
+        description: ''
+        icon: favicon
+        url: https://www.youtube.com/
+        id: 1_1956_youtube
+      - title: 9anime
+        icon: favicon
+        url: https://9anime.to/home
+        id: 2_1956_anime
+      - title: Rico
+        icon: https://www.rico.com.vc/login/favicon.png
+        url: https://www.rico.com.vc/login/
+        id: 3_1956_rico
+      - title: TradingView
+        icon: favicon
+        url: https://br.tradingview.com/chart/4sfvad0s/
+        id: 4_1956_tradingview
+      - title: Mercado Livre
+        icon: >-
+          https://http2.mlstatic.com/frontend-assets/ui-navigation/5.18.9/mercadolibre/favicon.svg
+        url: https://www.mercadolivre.com.br/
+        id: 5_1956_mercadolivre
+      - title: AliExpress
+        icon: favicon
+        url: https://pt.aliexpress.com/
+        id: 6_1956_aliexpress
+  - name: Networking
+    icon: fas fa-network-wired
+    items:
+      - title: Pi-Hole
+        description: DNS ad-blocking
+        icon: hl-pihole
+        url: http://localhost:8000/admin/
+        id: 0_1064_pihole
+  - name: System Monitoring
+    icon: fas fa-monitor-heart-rate
+    items:
+      - title: cAdvisor
+        description: Container monitoring
+        icon: hl-cadvisor
+        id: 0_1739_cadvisor
+      - title: Glances
+        description: Simple resource usage
+        icon: hl-glances
+        id: 1_1739_glances
+      - title: Dozzle
+        description: Docker container web log viewer
+        icon: hl-dozzle
+        id: 2_1739_dozzle
+      - title: HealthChecks
+        description: Cron Job Monitoring
+        icon: hl-healthchecks
+        url: https://healthchecks.io/checks/
+        id: 3_1739_healthchecks
+      - title: Grafana
+        description: Data visualised on dashboards
+        icon: hl-grafana
+        id: 4_1739_grafana
+      - title: Prometheus
+        description: System Statistics Aggregation with PromQL
+        icon: hl-prometheus
+        id: 5_1739_prometheus
+  - name: Home Control
+    icon: fas fa-house-signal
+    items:
+      - title: Home Assistant
+        description: Smart home control
+        icon: hl-home-assistant
+        id: 0_1162_homeassistant
+      - title: Node-RED
+        description: Flow-based automation
+        icon: hl-nodered
+        id: 1_1162_nodered
+      - title: OctoPrint
+        description: 3D Printer Control
+        icon: hl-octoprint
+        id: 2_1162_octoprint
+      - title: Zigbee 2 Mqtt
+        description: Zigbee to MQTT
+        icon: hl-zigbee2mqtt
+        id: 3_1162_zigbeemqtt
+      - title: Alarm Pi
+        description: IOT telegram-controlled alarm clock
+        icon: hl-alarmpi
+        id: 4_1162_alarmpi
+      - title: Brew Pi
+        description: IOT brewery controller
+        icon: hl-brewpi
+        id: 5_1162_brewpi
+  - name: Productivity
+    icon: fas fa-bookmark
+    items:
+      - title: NextCloud
+        description: File storage and apps
+        icon: hl-nextcloud
+        id: 0_1302_nextcloud
+      - title: BitWarden
+        description: Password manager
+        icon: hl-bitwarden
+        id: 1_1302_bitwarden
+      - title: Readarr
+        description: E-reader app
+        icon: hl-readarr
+        id: 2_1302_readarr
+      - title: Wallabag
+        description: Bookmark Manager
+        icon: hl-wallabag
+        id: 3_1302_wallabag
+      - title: ArchiveBox
+        description: Archive Manager
+        icon: hl-archivebox
+        id: 4_1302_archivebox
+      - title: VS Code
+        description: Cloud code editor
+        icon: hl-code
+        id: 5_1302_vscode
