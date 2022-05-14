@@ -29,6 +29,7 @@ sections:
         description: ''
         icon: favicon
         url: https://www.youtube.com/
+        target: sametab
         id: 1_1956_youtube
       - title: 9anime
         icon: favicon
@@ -87,33 +88,34 @@ sections:
         description: System Statistics Aggregation with PromQL
         icon: hl-prometheus
         id: 5_1739_prometheus
-  - name: Home Control
-    icon: fas fa-house-signal
+  - name: Tools
+    icon: fas fa-cubes
     items:
-      - title: Home Assistant
-        description: Smart home control
-        icon: hl-home-assistant
-        id: 0_1162_homeassistant
-      - title: Node-RED
-        description: Flow-based automation
-        icon: hl-nodered
-        id: 1_1162_nodered
-      - title: OctoPrint
-        description: 3D Printer Control
-        icon: hl-octoprint
-        id: 2_1162_octoprint
-      - title: Zigbee 2 Mqtt
-        description: Zigbee to MQTT
-        icon: hl-zigbee2mqtt
-        id: 3_1162_zigbeemqtt
-      - title: Alarm Pi
-        description: IOT telegram-controlled alarm clock
-        icon: hl-alarmpi
-        id: 4_1162_alarmpi
-      - title: Brew Pi
-        description: IOT brewery controller
-        icon: hl-brewpi
-        id: 5_1162_brewpi
+      - title: Portainer
+        icon: hl-portainer
+        url: http://192.168.56.104:9000/
+        target: newtab
+        id: 3_529_portainer
+      - title: Jenkins
+        description: ''
+        icon: hl-jenkins
+        url: http://192.168.56.104:8000/
+        id: 0_529_jenkins
+      - title: Wekan
+        description: ''
+        icon: hl-kanboard
+        url: http://192.168.56.104:8080/
+        id: 1_529_wekan
+      - title: Kibana
+        icon: hl-kibana
+        url: http://192.168.56.104:5601/app/apm
+        id: 2_529_kibana
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
   - name: Productivity
     icon: fas fa-bookmark
     items:
@@ -141,3 +143,9 @@ sections:
         description: Cloud code editor
         icon: hl-code
         id: 5_1302_vscode
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
