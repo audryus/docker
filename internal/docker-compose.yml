@@ -1,0 +1,65 @@
+version: '3.1'
+
+services:
+  postgres:
+    image: postgres:14
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_USER: postgres
+      POSTGRES_DB: postgres
+    ports:
+        - "5432:5432"
+  mariadb:
+    image: mariadb:10
+    restart: always
+    environment:
+      MARIADB_ROOT_PASSWORD: mariadb
+      MARIADB_PASSWORD: mariadb
+      MARIADB_USER: mariadb
+      MARIADB_DATABASE: mariadb
+    ports:
+        - "3306:3306"
+  redis:
+      image: redis
+      container_name: redis
+      hostname: redis      
+      restart: always
+      ports:
+        - "6379:6379"
+  redis-commander:  
+    container_name: redis-commander
+    hostname: redis-commander
+    image: ghcr.io/joeferner/redis-commander:latest
+    restart: always
+    ports:
+      - "8020:8081"
+    environment:
+      - REDIS_HOSTS=local:redis:6379
+  rabbitmq:
+    image: rabbitmq:3-management
+    restart: always
+    environment:
+      RABBITMQ_DEFAULT_USER: rabbitmq
+      RABBITMQ_DEFAULT_PASS: rabbitmq
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.10.0
+    restart: always
+    ports:
+      - "9200:9200"
+    environment:
+      ES_JAVA_OPTS: -XX:UseAVX=0 -Xms1g -Xmx1g
+      START_DAEMON: true
+      discovery.type: single-node
+  cassandra:
+    image: cassandra:4
+    restart: always
+    ports:
+      - "9160:9160"
+      - "9042:9042"
+      - "7199:7199"
+      - "61620:61620"
+      - "61621:61621"

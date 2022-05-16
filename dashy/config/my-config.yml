@@ -52,6 +52,15 @@ sections:
         icon: favicon
         url: https://pt.aliexpress.com/
         id: 6_1956_aliexpress
+      - title: Twitch
+        icon: favicon
+        url: https://www.twitch.tv
+        target: newtab
+        id: 7_1956_twitch
+      - title: DropBox
+        icon: favicon
+        url: https://www.dropbox.com/home
+        id: 8_1956_dropbox
   - name: Networking
     icon: fas fa-network-wired
     items:
@@ -95,21 +104,21 @@ sections:
         icon: hl-portainer
         url: http://192.168.56.104:9000/
         target: newtab
-        id: 3_529_portainer
+        id: 0_529_portainer
       - title: Jenkins
         description: ''
         icon: hl-jenkins
         url: http://192.168.56.104:8000/
-        id: 0_529_jenkins
-      - title: Wekan
+        id: 1_529_jenkins
+      - title: KanBoard
         description: ''
         icon: hl-kanboard
         url: http://192.168.56.104:8080/
-        id: 1_529_wekan
+        id: 2_529_kanboard
       - title: Kibana
         icon: hl-kibana
         url: http://192.168.56.104:5601/app/apm
-        id: 2_529_kibana
+        id: 3_529_kibana
     displayData:
       sortBy: default
       rows: 1
@@ -149,3 +158,24 @@ sections:
       cols: 1
       collapsed: false
       hideForGuests: false
+  - name: Internal
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Portainer
+        icon: hl-portainer
+        url: http://192.168.56.107:9000/
+        id: 0_829_portainer
+      - title: RabbitMQ
+        description: Manager
+        icon: favicon
+        url: http://192.168.56.107:15672/
+        id: 1_829_rabbitmq
+      - title: Redis Commander
+        icon: hl-redis
+        url: http://192.168.56.107:8020/
+        id: 2_829_rediscommander
