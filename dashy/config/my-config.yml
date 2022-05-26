@@ -113,45 +113,21 @@ sections:
         icon: favicon
         url: https://q-dance.com
         id: 9_1956_qdance
-  - name: Networking
-    icon: fas fa-network-wired
+  - name: Widgets
+    widgets:
+      - type: clock
+        options:
+          timeZone: America/Sao_Paulo
+          format: pt-BR
+          hideDate: false
+  - name: Tools
+    icon: fas fa-cubes
     items:
       - title: Pi-Hole
         description: DNS ad-blocking
         icon: hl-pihole
         url: http://localhost:8000/admin/
         id: 0_1064_pihole
-  - name: System Monitoring
-    icon: fas fa-monitor-heart-rate
-    items:
-      - title: cAdvisor
-        description: Container monitoring
-        icon: hl-cadvisor
-        id: 0_1739_cadvisor
-      - title: Glances
-        description: Simple resource usage
-        icon: hl-glances
-        id: 1_1739_glances
-      - title: Dozzle
-        description: Docker container web log viewer
-        icon: hl-dozzle
-        id: 2_1739_dozzle
-      - title: HealthChecks
-        description: Cron Job Monitoring
-        icon: hl-healthchecks
-        url: https://healthchecks.io/checks/
-        id: 3_1739_healthchecks
-      - title: Grafana
-        description: Data visualised on dashboards
-        icon: hl-grafana
-        id: 4_1739_grafana
-      - title: Prometheus
-        description: System Statistics Aggregation with PromQL
-        icon: hl-prometheus
-        id: 5_1739_prometheus
-  - name: Tools
-    icon: fas fa-cubes
-    items:
       - title: Portainer
         icon: hl-portainer
         url: http://192.168.56.104:9000/
@@ -171,39 +147,6 @@ sections:
         icon: hl-kibana
         url: http://192.168.56.104:5601/app/apm
         id: 3_529_kibana
-    displayData:
-      sortBy: default
-      rows: 1
-      cols: 1
-      collapsed: false
-      hideForGuests: false
-  - name: Productivity
-    icon: fas fa-bookmark
-    items:
-      - title: NextCloud
-        description: File storage and apps
-        icon: hl-nextcloud
-        id: 0_1302_nextcloud
-      - title: BitWarden
-        description: Password manager
-        icon: hl-bitwarden
-        id: 1_1302_bitwarden
-      - title: Readarr
-        description: E-reader app
-        icon: hl-readarr
-        id: 2_1302_readarr
-      - title: Wallabag
-        description: Bookmark Manager
-        icon: hl-wallabag
-        id: 3_1302_wallabag
-      - title: ArchiveBox
-        description: Archive Manager
-        icon: hl-archivebox
-        id: 4_1302_archivebox
-      - title: VS Code
-        description: Cloud code editor
-        icon: hl-code
-        id: 5_1302_vscode
     displayData:
       sortBy: default
       rows: 1
