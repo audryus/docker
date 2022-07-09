@@ -56,7 +56,10 @@ pageInfo:
   navLinks:
     - title: GitHub
       path: https://github.com/audryus
-      target: newtab
+      target: sametab
+    - title: gMail
+      path: https://mail.google.com
+      target: sametab
   footerText: ''
 sections:
   - name: Media & Entertainment
@@ -110,7 +113,7 @@ sections:
         url: https://www.dropbox.com/home
         id: 8_1956_dropbox
       - title: Q-Dance
-        icon: favicon
+        icon: https://www.q-dance.com/static/images/favicon/favicon-32x32.png
         url: https://q-dance.com
         id: 9_1956_qdance
   - name: Widgets
@@ -120,6 +123,7 @@ sections:
           timeZone: America/Sao_Paulo
           format: pt-BR
           hideDate: false
+        id: 0_727_clock
   - name: Tools
     icon: fas fa-cubes
     items:
@@ -127,26 +131,26 @@ sections:
         description: DNS ad-blocking
         icon: hl-pihole
         url: http://localhost:8000/admin/
-        id: 0_1064_pihole
+        id: 0_529_pihole
       - title: Portainer
         icon: hl-portainer
         url: http://192.168.56.104:9000/
         target: newtab
-        id: 0_529_portainer
+        id: 1_529_portainer
       - title: Jenkins
         description: ''
         icon: hl-jenkins
         url: http://192.168.56.104:8000/
-        id: 1_529_jenkins
+        id: 2_529_jenkins
       - title: KanBoard
         description: ''
         icon: hl-kanboard
         url: http://192.168.56.104:8080/
-        id: 2_529_kanboard
+        id: 3_529_kanboard
       - title: Kibana
         icon: hl-kibana
         url: http://192.168.56.104:5601/app/apm
-        id: 3_529_kibana
+        id: 4_529_kibana
     displayData:
       sortBy: default
       rows: 1
