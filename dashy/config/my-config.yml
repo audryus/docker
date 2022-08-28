@@ -60,6 +60,9 @@ pageInfo:
     - title: gMail
       path: https://mail.google.com
       target: sametab
+    - title: LinkedIn
+      path: https://www.linkedin.com/feed/
+      target: sametab
   footerText: ''
 sections:
   - name: Media & Entertainment
@@ -116,6 +119,11 @@ sections:
         icon: https://www.q-dance.com/static/images/favicon/favicon-32x32.png
         url: https://q-dance.com
         id: 9_1956_qdance
+      - title: Android Find
+        icon: favicon
+        url: https://www.google.com/android/find
+        target: newtab
+        id: 10_1956_androidfind
   - name: Widgets
     widgets:
       - type: clock
@@ -151,6 +159,10 @@ sections:
         icon: hl-kibana
         url: http://192.168.56.104:5601/app/apm
         id: 4_529_kibana
+      - title: GoCD
+        icon: si-gocd
+        url: http://localhost:8153/go
+        id: 5_529_gocd
     displayData:
       sortBy: default
       rows: 1
