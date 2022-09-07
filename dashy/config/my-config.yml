@@ -74,56 +74,52 @@ sections:
       collapsed: false
       hideForGuests: false
     items:
-      - title: BetterBachelor
-        icon: favicon
-        url: https://rumble.com/c/BetterBachelor
-        id: 0_1956_betterbachelor
       - title: YouTube
         description: ''
         icon: favicon
         url: https://www.youtube.com/
         target: sametab
-        id: 1_1956_youtube
+        id: 0_1956_youtube
       - title: 9anime
         icon: favicon
         url: https://9anime.to/home
         target: sametab
-        id: 2_1956_anime
+        id: 1_1956_anime
       - title: Rico
         icon: https://www.rico.com.vc/login/favicon.png
         url: https://www.rico.com.vc/login/
-        id: 3_1956_rico
+        id: 2_1956_rico
       - title: TradingView
         icon: favicon
         url: https://br.tradingview.com/chart/4sfvad0s/
-        id: 4_1956_tradingview
+        id: 3_1956_tradingview
       - title: Mercado Livre
         icon: >-
           https://http2.mlstatic.com/frontend-assets/ui-navigation/5.18.9/mercadolibre/favicon.svg
         url: https://www.mercadolivre.com.br/
-        id: 5_1956_mercadolivre
+        id: 4_1956_mercadolivre
       - title: AliExpress
         icon: favicon
         url: https://pt.aliexpress.com/
-        id: 6_1956_aliexpress
+        id: 5_1956_aliexpress
       - title: Twitch
         icon: favicon
         url: https://www.twitch.tv
         target: newtab
-        id: 7_1956_twitch
+        id: 6_1956_twitch
       - title: DropBox
         icon: favicon
         url: https://www.dropbox.com/home
-        id: 8_1956_dropbox
+        id: 7_1956_dropbox
       - title: Q-Dance
         icon: https://www.q-dance.com/static/images/favicon/favicon-32x32.png
         url: https://q-dance.com
-        id: 9_1956_qdance
+        id: 8_1956_qdance
       - title: Android Find
         icon: favicon
         url: https://www.google.com/android/find
         target: newtab
-        id: 10_1956_androidfind
+        id: 9_1956_androidfind
   - name: Widgets
     widgets:
       - type: clock
