@@ -1,0 +1,8 @@
+version: "3.8"
+services:
+  trilium:
+    image: zadam/trilium:latest
+    ports:
+      - 8482:8080
+    volumes:
+      - ./t-data:/home/node/trilium-data
