@@ -1,3 +1,8 @@
 /pi-hole/etc-pihole
 /pi-hole/etc-dnsmasq.d
 /pi-hole/password.txt
+/trilium/t-data/document.db-shm
+/trilium/t-data/document.db-wal
+/trilium/t-data/log
+/trilium/t-data/sessions
+/trilium/t-data/session_secret.txt
