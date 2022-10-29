@@ -1,5 +1,5 @@
 appConfig:
-  theme: one-dark
+  theme: fallout
   layout: auto
   iconSize: medium
   language: pt
@@ -82,7 +82,7 @@ sections:
         id: 0_1956_youtube
       - title: 9anime
         icon: favicon
-        url: https://9anime.to/home
+        url: https://9anime.pl/home
         target: sametab
         id: 1_1956_anime
       - title: Rico
@@ -120,6 +120,11 @@ sections:
         url: https://www.google.com/android/find
         target: newtab
         id: 9_1956_androidfind
+      - title: Real Hardstyle
+        icon: https://realhardstyle.nl/wp-content/uploads/2019/06/favicon.png
+        url: https://realhardstyle.nl/
+        target: sametab
+        id: 10_1956_realhardstyle
   - name: Widgets
     widgets:
       - type: clock
@@ -159,6 +164,11 @@ sections:
         icon: si-gocd
         url: http://localhost:8153/go
         id: 5_529_gocd
+      - title: Trilium
+        icon: hl-trilium
+        url: http://localhost:8482/
+        target: sametab
+        id: 6_529_trilium
     displayData:
       sortBy: default
       rows: 1
