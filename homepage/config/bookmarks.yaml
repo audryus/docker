@@ -1,0 +1,16 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/en/configs/bookmarks
+
+- Developer:
+    - Github:
+      - abbr: GH
+        href: https://github.com/audryus
+- E-mail:
+    - gMail:
+      - abbr: GM
+        href: https://gmail.com
+- LinkedIn:
+    - linkedin:
+      - abbr: LI
+        href: https://www.linkedin.com/feed/
