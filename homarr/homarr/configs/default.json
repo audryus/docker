@@ -1,0 +1,861 @@
+{
+  "schemaVersion": 2,
+  "configProperties": {
+    "name": "default"
+  },
+  "categories": [
+    {
+      "id": "40217ac9-fa23-4825-b79a-069cf33f9138",
+      "name": "New Category",
+      "position": 1
+    }
+  ],
+  "wrappers": [
+    {
+      "id": "default",
+      "position": 0
+    },
+    {
+      "id": "e595e32b-705e-4137-8ad3-71cfe45bad38",
+      "position": 1
+    }
+  ],
+  "apps": [
+    {
+      "id": "87b98a1d-38c4-4c3a-821e-ddb90af5a636",
+      "name": "TradingView",
+      "url": "https://www.tradingview.com/chart/4sfvad0s",
+      "appearance": {
+        "iconUrl": "https://cdn.jsdelivr.net/gh/PapirusDevelopmentTeam/papirus_icons/src/apps_tradingview.svg",
+        "appNameStatus": "normal",
+        "positionAppName": "column",
+        "lineClampAppName": 1,
+        "appNameFontSize": 16
+      },
+      "network": {
+        "enabledStatusChecker": false,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "https://www.tradingview.com/chart/4sfvad0s/"
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "e595e32b-705e-4137-8ad3-71cfe45bad38"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 4,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      }
+    },
+    {
+      "id": "e4500b44-4cdf-4112-a310-ff527c4f5375",
+      "name": "Q-dance",
+      "url": "https://q-dance.com",
+      "appearance": {
+        "iconUrl": "https://www.q-dance.com/static/images/favicon/favicon-32x32.png",
+        "appNameStatus": "normal",
+        "positionAppName": "column",
+        "lineClampAppName": 1,
+        "appNameFontSize": 16
+      },
+      "network": {
+        "enabledStatusChecker": false,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "https://q-dance.com"
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "e595e32b-705e-4137-8ad3-71cfe45bad38"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 3,
+            "y": 1
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      }
+    },
+    {
+      "id": "eb7e57d3-fc0b-4616-bd95-695e79ec352e",
+      "name": "Real Hardstyle",
+      "url": "https://realhardstyle.nl",
+      "appearance": {
+        "iconUrl": "https://realhardstyle.nl/wp-content/uploads/2019/06/favicon.png",
+        "appNameStatus": "normal",
+        "positionAppName": "column",
+        "lineClampAppName": 1,
+        "appNameFontSize": 16
+      },
+      "network": {
+        "enabledStatusChecker": false,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "https://realhardstyle.nl/"
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "e595e32b-705e-4137-8ad3-71cfe45bad38"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 4,
+            "y": 1
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      }
+    },
+    {
+      "id": "5628320c-5494-47b9-866c-5f25dbe70530",
+      "name": "Mercado Livre",
+      "url": "https://www.mercadolivre.com.br",
+      "appearance": {
+        "iconUrl": "https://http2.mlstatic.com/frontend-assets/ui-navigation/5.18.9/mercadolibre/favicon.svg",
+        "appNameStatus": "normal",
+        "positionAppName": "column",
+        "lineClampAppName": 1,
+        "appNameFontSize": 16
+      },
+      "network": {
+        "enabledStatusChecker": false,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "https://www.mercadolivre.com.br/"
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "e595e32b-705e-4137-8ad3-71cfe45bad38"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 5,
+            "y": 0
+          },
+          "size": {
+            "width": 2,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      }
+    },
+    {
+      "id": "f1bbac78-b05d-4945-9e54-3dd080cf4e71",
+      "name": "Nginx Proxy Manager",
+      "url": "https://npm.audryus.com.br/login",
+      "appearance": {
+        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/anything-llm-dark.svg",
+        "appNameStatus": "normal",
+        "positionAppName": "column",
+        "lineClampAppName": 1,
+        "appNameFontSize": 16
+      },
+      "network": {
+        "enabledStatusChecker": false,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "https://npm.audryus.com.br/login"
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "e595e32b-705e-4137-8ad3-71cfe45bad38"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 6,
+            "y": 1
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      }
+    },
+    {
+      "id": "f374de2f-4303-4622-974f-109c61215c68",
+      "name": "AniWatch TV",
+      "url": "https://aniwatchtv.to/home",
+      "appearance": {
+        "iconUrl": "https://aniwatchtv.to/images/favicon.png",
+        "appNameStatus": "normal",
+        "positionAppName": "column",
+        "lineClampAppName": 1,
+        "appNameFontSize": 16
+      },
+      "network": {
+        "enabledStatusChecker": false,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "https://aniwatchtv.to/home"
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "e595e32b-705e-4137-8ad3-71cfe45bad38"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 1,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      }
+    },
+    {
+      "id": "a278731f-5a9b-43cd-8e1e-a9f24872682b",
+      "name": "Pi-Hole",
+      "url": "http://localhost:8000/admin",
+      "appearance": {
+        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/pi-hole.svg",
+        "appNameStatus": "normal",
+        "positionAppName": "column",
+        "lineClampAppName": 1,
+        "appNameFontSize": 16
+      },
+      "network": {
+        "enabledStatusChecker": false,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "http://localhost:8000/admin"
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "e595e32b-705e-4137-8ad3-71cfe45bad38"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 7,
+            "y": 1
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      }
+    },
+    {
+      "id": "73924b09-fdf9-43bb-ab7a-ece12b0b090f",
+      "name": "Rico",
+      "url": "https://www.rico.com.vc/login",
+      "appearance": {
+        "iconUrl": "https://www.rico.com.vc/login/favicon.png",
+        "appNameStatus": "normal",
+        "positionAppName": "column",
+        "lineClampAppName": 1,
+        "appNameFontSize": 16
+      },
+      "network": {
+        "enabledStatusChecker": false,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "https://www.rico.com.vc/login/"
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "e595e32b-705e-4137-8ad3-71cfe45bad38"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 3,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      }
+    },
+    {
+      "id": "8bcd6d90-dafd-4a53-ae7f-104e096421ae",
+      "name": "LinkedIn",
+      "url": "https://linkedin.com",
+      "appearance": {
+        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/linkedin.svg",
+        "appNameStatus": "normal",
+        "positionAppName": "column",
+        "lineClampAppName": 1,
+        "appNameFontSize": 16
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "https://linkedin.com"
+      },
+      "area": {
+        "type": "category",
+        "properties": {
+          "id": "40217ac9-fa23-4825-b79a-069cf33f9138"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 2,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      }
+    },
+    {
+      "id": "911aeaeb-df0f-4e63-89d9-060903c400fb",
+      "name": "Twitch",
+      "url": "https://www.twitch.tv",
+      "appearance": {
+        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/twitch.svg",
+        "appNameStatus": "normal",
+        "positionAppName": "column",
+        "lineClampAppName": 1,
+        "appNameFontSize": 16
+      },
+      "network": {
+        "enabledStatusChecker": false,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "https://www.twitch.tv"
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "e595e32b-705e-4137-8ad3-71cfe45bad38"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 0,
+            "y": 1
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      }
+    },
+    {
+      "id": "06c04b09-ffa5-4bf0-8eab-52291a0e3da8",
+      "name": "GitHub",
+      "url": "https://github.com/audryus",
+      "appearance": {
+        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/github.svg",
+        "appNameStatus": "normal",
+        "positionAppName": "column",
+        "lineClampAppName": 1,
+        "appNameFontSize": 16
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "https://github.com/audryus"
+      },
+      "area": {
+        "type": "category",
+        "properties": {
+          "id": "40217ac9-fa23-4825-b79a-069cf33f9138"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 0,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      }
+    },
+    {
+      "id": "87f38405-16c7-4575-8674-7cbd40023c69",
+      "name": "Youtube",
+      "url": "https://www.youtube.com",
+      "appearance": {
+        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/youtube-kids.svg",
+        "appNameStatus": "normal",
+        "positionAppName": "column",
+        "lineClampAppName": 1,
+        "appNameFontSize": 16
+      },
+      "network": {
+        "enabledStatusChecker": false,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": false,
+        "externalUrl": "https://www.youtube.com/"
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "e595e32b-705e-4137-8ad3-71cfe45bad38"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 0,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      }
+    },
+    {
+      "id": "a69c91c6-7951-468a-a227-0af08cb3a77e",
+      "name": "gmail",
+      "url": "https://mail.google.com",
+      "appearance": {
+        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/gmail.svg",
+        "appNameStatus": "normal",
+        "positionAppName": "column",
+        "lineClampAppName": 1,
+        "appNameFontSize": 16
+      },
+      "network": {
+        "enabledStatusChecker": true,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": false,
+        "externalUrl": "https://mail.google.com"
+      },
+      "area": {
+        "type": "category",
+        "properties": {
+          "id": "40217ac9-fa23-4825-b79a-069cf33f9138"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 1,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      }
+    },
+    {
+      "id": "fdb71ef3-c048-4cdd-bba1-3dc9526f4a2b",
+      "name": "DropBox",
+      "url": "https://www.dropbox.com/home",
+      "appearance": {
+        "iconUrl": "https://cdn.jsdelivr.net/gh/PapirusDevelopmentTeam/papirus_icons/src/apps_dropbox.svg",
+        "appNameStatus": "normal",
+        "positionAppName": "column",
+        "lineClampAppName": 1,
+        "appNameFontSize": 16
+      },
+      "network": {
+        "enabledStatusChecker": false,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "https://www.dropbox.com/home"
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "e595e32b-705e-4137-8ad3-71cfe45bad38"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 1,
+            "y": 1
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      }
+    }
+  ],
+  "widgets": [
+    {
+      "id": "e3004052-6b83-480e-b458-56e8ccdca5f0",
+      "type": "weather",
+      "properties": {
+        "displayInFahrenheit": false,
+        "location": {
+          "name": "Santos",
+          "latitude": -23.96083,
+          "longitude": -46.33361
+        },
+        "displayCityName": true,
+        "displayWeekly": true,
+        "forecastDays": 5
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "e595e32b-705e-4137-8ad3-71cfe45bad38"
+        }
+      },
+      "shape": {
+        "md": {
+          "location": {
+            "x": 5,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        },
+        "sm": {
+          "location": {
+            "x": 2,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        },
+        "lg": {
+          "location": {
+            "x": 7,
+            "y": 0
+          },
+          "size": {
+            "width": 3,
+            "height": 1
+          }
+        }
+      }
+    },
+    {
+      "id": "971aa859-8570-49a1-8d34-dd5c7b3638d1",
+      "type": "date",
+      "properties": {
+        "display24HourFormat": true,
+        "dateFormat": "dddd, MMMM D",
+        "enableTimezone": false,
+        "timezoneLocation": {
+          "name": "Paris",
+          "latitude": 48.85341,
+          "longitude": 2.3488
+        },
+        "titleState": "both",
+        "timezone": "America/Sao_Paulo",
+        "customTitle": "Santos"
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "e595e32b-705e-4137-8ad3-71cfe45bad38"
+        }
+      },
+      "shape": {
+        "sm": {
+          "location": {
+            "x": 1,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        },
+        "md": {
+          "location": {
+            "x": 4,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        },
+        "lg": {
+          "location": {
+            "x": 8,
+            "y": 1
+          },
+          "size": {
+            "width": 2,
+            "height": 1
+          }
+        }
+      }
+    }
+  ],
+  "settings": {
+    "common": {
+      "searchEngine": {
+        "type": "google",
+        "properties": {}
+      }
+    },
+    "customization": {
+      "layout": {
+        "enabledLeftSidebar": false,
+        "enabledRightSidebar": false,
+        "enabledDocker": false,
+        "enabledPing": false,
+        "enabledSearchbar": true
+      },
+      "pageTitle": "Homarr ⭐️",
+      "logoImageUrl": "/imgs/logo/logo.png",
+      "faviconUrl": "/imgs/favicon/favicon-squared.png",
+      "backgroundImageUrl": "",
+      "customCss": "",
+      "colors": {
+        "primary": "red",
+        "secondary": "yellow",
+        "shade": 7
+      },
+      "appOpacity": 100,
+      "gridstack": {
+        "columnCountSmall": 3,
+        "columnCountMedium": 6,
+        "columnCountLarge": 10
+      },
+      "backgroundImageAttachment": "fixed",
+      "backgroundImageRepeat": "no-repeat",
+      "backgroundImageSize": "cover",
+      "metaTitle": ""
+    },
+    "access": {
+      "allowGuests": false
+    }
+  }
+}

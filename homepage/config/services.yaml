@@ -2,17 +2,45 @@
 # For configuration options and examples, please see:
 # https://gethomepage.dev/en/configs/services
 
-- My First Group:
-    - My First Service:
-        href: http://localhost/
-        description: Homepage is awesome
+- Media & Entertainment:
+    - YouTube:
+        href: https://www.youtube.com/
+        icon: youtube-play.png
+    - 9anime:
+        href: https://9anime.pl/home
+    - Q-Dance:
+        href: https://q-dance.com/
+        ping: https://q-dance.com/
+    - Real Hardstyle:
+        href: https://realhardstyle.nl/
+        ping: https://realhardstyle.nl/
+    - Twitch:
+        href: https://www.twitch.tv
+    - DropBox:
+        href: https://www.dropbox.com/home
+    - Android Find:
+        href: https://www.google.com/android/find
 
 - My Second Group:
-    - My Second Service:
-        href: http://localhost/
-        description: Homepage is the best
+    - Mercado Livre:
+        href: https://www.mercadolivre.com.br/
+        icon: youtube-play.png
+    - AliExpress:
+        href: https://pt.aliexpress.com/
+    - Rico:
+        href: https://www.rico.com.vc/login/
+    - TradingView:
+        href: https://br.tradingview.com/chart/4sfvad0s/
 
-- My Third Group:
-    - My Third Service:
+- Local Tools:
+    - Pi-Hole:
+        href: http://localhost:8000/admin/
+        icon: pihole.png
+        container: pihole
+    - Trilium:
+        href: http://localhost:8482/
+        icon: trilium.png
+
+- Kubernetes:
+    - My Fifth Service:
         href: http://localhost/
-        description: Homepage is 😎

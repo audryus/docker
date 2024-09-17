@@ -2,13 +2,19 @@
 # For configuration options and examples, please see:
 # https://gethomepage.dev/en/configs/widgets
 
-- resources:
-    cpu: true
-    memory: true
-    disk: /
-
 - search:
     provider: custom
     focus: true
     url: https://search.brave.com/search?q=
     target: _self
+
+- resources:
+    cpu: true
+    memory: true
+    disk: /
+
+- datetime:
+    text_size: 4xl
+    format:
+      timeStyle: medium
+      hour12: false

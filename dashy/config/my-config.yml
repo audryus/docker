@@ -74,57 +74,87 @@ sections:
       collapsed: false
       hideForGuests: false
     items:
-      - title: YouTube
+      - &ref_0
+        title: YouTube
         description: ''
         icon: favicon
         url: https://www.youtube.com/
         target: sametab
         id: 0_1956_youtube
-      - title: 9anime
+      - &ref_1
+        title: aniwatchTV
         icon: favicon
-        url: https://9anime.pl/home
+        url: https://aniwatchtv.to/home
         target: sametab
-        id: 1_1956_anime
-      - title: Rico
+        id: 1_1956_aniwatchtv
+      - &ref_2
+        title: Rico
         icon: https://www.rico.com.vc/login/favicon.png
         url: https://www.rico.com.vc/login/
         id: 2_1956_rico
-      - title: TradingView
+      - &ref_3
+        title: TradingView
         icon: favicon
-        url: https://br.tradingview.com/chart/4sfvad0s/
+        url: https://www.tradingview.com/chart/4sfvad0s/
         id: 3_1956_tradingview
-      - title: Mercado Livre
+      - &ref_4
+        title: Mercado Livre
         icon: >-
           https://http2.mlstatic.com/frontend-assets/ui-navigation/5.18.9/mercadolibre/favicon.svg
         url: https://www.mercadolivre.com.br/
         id: 4_1956_mercadolivre
-      - title: AliExpress
+      - &ref_5
+        title: AliExpress
         icon: favicon
         url: https://pt.aliexpress.com/
         id: 5_1956_aliexpress
-      - title: Twitch
+      - &ref_6
+        title: Twitch
         icon: favicon
         url: https://www.twitch.tv
         target: newtab
         id: 6_1956_twitch
-      - title: DropBox
+      - &ref_7
+        title: DropBox
         icon: favicon
         url: https://www.dropbox.com/home
         id: 7_1956_dropbox
-      - title: Q-Dance
+      - &ref_8
+        title: Q-Dance
         icon: https://www.q-dance.com/static/images/favicon/favicon-32x32.png
         url: https://q-dance.com
         id: 8_1956_qdance
-      - title: Android Find
+      - &ref_9
+        title: Android Find
         icon: favicon
         url: https://www.google.com/android/find
         target: newtab
         id: 9_1956_androidfind
-      - title: Real Hardstyle
+      - &ref_10
+        title: Real Hardstyle
         icon: https://realhardstyle.nl/wp-content/uploads/2019/06/favicon.png
         url: https://realhardstyle.nl/
         target: sametab
         id: 10_1956_realhardstyle
+      - &ref_11
+        title: aniwave
+        icon: favicon
+        url: https://aniwave.to/home
+        target: sametab
+        id: 11_1956_aniwave
+    filteredItems:
+      - *ref_0
+      - *ref_1
+      - *ref_2
+      - *ref_3
+      - *ref_4
+      - *ref_5
+      - *ref_6
+      - *ref_7
+      - *ref_8
+      - *ref_9
+      - *ref_10
+      - *ref_11
   - name: Widgets
     widgets:
       - type: clock
@@ -133,38 +163,46 @@ sections:
           format: pt-BR
           hideDate: false
         id: 0_727_clock
+    filteredItems: []
   - name: Tools
     icon: fas fa-cubes
     items:
-      - title: Pi-Hole
+      - &ref_12
+        title: Pi-Hole
         description: DNS ad-blocking
         icon: hl-pihole
         url: http://localhost:8000/admin/
         id: 0_529_pihole
-      - title: Portainer
+      - &ref_13
+        title: Portainer
         icon: hl-portainer
         url: http://192.168.56.104:9000/
         target: newtab
         id: 1_529_portainer
-      - title: Jenkins
+      - &ref_14
+        title: Jenkins
         description: ''
         icon: hl-jenkins
         url: http://192.168.56.104:8000/
         id: 2_529_jenkins
-      - title: KanBoard
+      - &ref_15
+        title: KanBoard
         description: ''
         icon: hl-kanboard
         url: http://192.168.56.104:8080/
         id: 3_529_kanboard
-      - title: Kibana
+      - &ref_16
+        title: Kibana
         icon: hl-kibana
         url: http://192.168.56.104:5601/app/apm
         id: 4_529_kibana
-      - title: GoCD
+      - &ref_17
+        title: GoCD
         icon: si-gocd
         url: http://localhost:8153/go
         id: 5_529_gocd
-      - title: Trilium
+      - &ref_18
+        title: Trilium
         icon: hl-trilium
         url: http://localhost:8482/
         target: sametab
@@ -175,6 +213,14 @@ sections:
       cols: 1
       collapsed: false
       hideForGuests: false
+    filteredItems:
+      - *ref_12
+      - *ref_13
+      - *ref_14
+      - *ref_15
+      - *ref_16
+      - *ref_17
+      - *ref_18
   - name: Internal
     displayData:
       sortBy: default
@@ -183,16 +229,23 @@ sections:
       collapsed: false
       hideForGuests: false
     items:
-      - title: Portainer
+      - &ref_19
+        title: Portainer
         icon: hl-portainer
         url: http://192.168.56.107:9000/
         id: 0_829_portainer
-      - title: RabbitMQ
+      - &ref_20
+        title: RabbitMQ
         description: Manager
         icon: hl-rabbitmq
         url: http://192.168.56.107:15672/
         id: 1_829_rabbitmq
-      - title: Redis Commander
+      - &ref_21
+        title: Redis Commander
         icon: hl-redis
         url: http://192.168.56.107:8020/
         id: 2_829_rediscommander
+    filteredItems:
+      - *ref_19
+      - *ref_20
+      - *ref_21
