@@ -10,11 +10,13 @@ services:
     ports:
         - "5432:5432"
   crdb:
-    image: cockroachdb/cockroach:v22.2.5
+    image: cockroachdb/cockroach:v24.2.3
     ports:
       - "26257:26257"
       - "8880:8080"
     command: start-single-node --insecure
+    environment:
+      COCKROACH_DATABASE: cockroach
     volumes:
       - "./cockroach-data/crdb:/cockroach/cockroach-data"
   mysql:
