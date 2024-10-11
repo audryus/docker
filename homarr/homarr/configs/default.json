@@ -22,6 +22,55 @@
   ],
   "apps": [
     {
+      "id": "73924b09-fdf9-43bb-ab7a-ece12b0b090f",
+      "name": "Rico",
+      "url": "https://www.rico.com.vc/login",
+      "appearance": {
+        "iconUrl": "https://www.rico.com.vc/login/favicon.png",
+        "appNameStatus": "normal",
+        "positionAppName": "column",
+        "lineClampAppName": 1,
+        "appNameFontSize": 16
+      },
+      "network": {
+        "enabledStatusChecker": false,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "https://www.rico.com.vc/login/"
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "e595e32b-705e-4137-8ad3-71cfe45bad38"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 2,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      }
+    },
+    {
       "id": "87b98a1d-38c4-4c3a-821e-ddb90af5a636",
       "name": "TradingView",
       "url": "https://www.tradingview.com/chart/4sfvad0s",
@@ -56,7 +105,7 @@
       "shape": {
         "lg": {
           "location": {
-            "x": 4,
+            "x": 3,
             "y": 0
           },
           "size": {
@@ -71,11 +120,11 @@
       }
     },
     {
-      "id": "e4500b44-4cdf-4112-a310-ff527c4f5375",
-      "name": "Q-dance",
-      "url": "https://q-dance.com",
+      "id": "f374de2f-4303-4622-974f-109c61215c68",
+      "name": "AniWatch TV",
+      "url": "https://aniwatchtv.to/home",
       "appearance": {
-        "iconUrl": "https://www.q-dance.com/static/images/favicon/favicon-32x32.png",
+        "iconUrl": "https://aniwatchtv.to/images/favicon.png",
         "appNameStatus": "normal",
         "positionAppName": "column",
         "lineClampAppName": 1,
@@ -94,7 +143,7 @@
       },
       "behaviour": {
         "isOpeningNewTab": true,
-        "externalUrl": "https://q-dance.com"
+        "externalUrl": "https://aniwatchtv.to/home"
       },
       "area": {
         "type": "wrapper",
@@ -105,7 +154,56 @@
       "shape": {
         "lg": {
           "location": {
-            "x": 3,
+            "x": 1,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      }
+    },
+    {
+      "id": "a278731f-5a9b-43cd-8e1e-a9f24872682b",
+      "name": "Pi-Hole",
+      "url": "http://localhost:8000/admin",
+      "appearance": {
+        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/pi-hole.svg",
+        "appNameStatus": "normal",
+        "positionAppName": "column",
+        "lineClampAppName": 1,
+        "appNameFontSize": 16
+      },
+      "network": {
+        "enabledStatusChecker": false,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "http://localhost:8000/admin"
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "e595e32b-705e-4137-8ad3-71cfe45bad38"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 7,
             "y": 1
           },
           "size": {
@@ -120,11 +218,11 @@
       }
     },
     {
-      "id": "eb7e57d3-fc0b-4616-bd95-695e79ec352e",
-      "name": "Real Hardstyle",
-      "url": "https://realhardstyle.nl",
+      "id": "911aeaeb-df0f-4e63-89d9-060903c400fb",
+      "name": "Twitch",
+      "url": "https://www.twitch.tv",
       "appearance": {
-        "iconUrl": "https://realhardstyle.nl/wp-content/uploads/2019/06/favicon.png",
+        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/twitch.svg",
         "appNameStatus": "normal",
         "positionAppName": "column",
         "lineClampAppName": 1,
@@ -143,7 +241,7 @@
       },
       "behaviour": {
         "isOpeningNewTab": true,
-        "externalUrl": "https://realhardstyle.nl/"
+        "externalUrl": "https://www.twitch.tv"
       },
       "area": {
         "type": "wrapper",
@@ -154,7 +252,105 @@
       "shape": {
         "lg": {
           "location": {
-            "x": 4,
+            "x": 0,
+            "y": 1
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      }
+    },
+    {
+      "id": "87f38405-16c7-4575-8674-7cbd40023c69",
+      "name": "Youtube",
+      "url": "https://www.youtube.com",
+      "appearance": {
+        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/youtube-kids.svg",
+        "appNameStatus": "normal",
+        "positionAppName": "column",
+        "lineClampAppName": 1,
+        "appNameFontSize": 16
+      },
+      "network": {
+        "enabledStatusChecker": false,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": false,
+        "externalUrl": "https://www.youtube.com/"
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "e595e32b-705e-4137-8ad3-71cfe45bad38"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 0,
+            "y": 0
+          },
+          "size": {
+            "width": 1,
+            "height": 1
+          }
+        }
+      },
+      "integration": {
+        "type": null,
+        "properties": []
+      }
+    },
+    {
+      "id": "fdb71ef3-c048-4cdd-bba1-3dc9526f4a2b",
+      "name": "DropBox",
+      "url": "https://www.dropbox.com/home",
+      "appearance": {
+        "iconUrl": "https://cdn.jsdelivr.net/gh/PapirusDevelopmentTeam/papirus_icons/src/apps_dropbox.svg",
+        "appNameStatus": "normal",
+        "positionAppName": "column",
+        "lineClampAppName": 1,
+        "appNameFontSize": 16
+      },
+      "network": {
+        "enabledStatusChecker": false,
+        "statusCodes": [
+          "200",
+          "301",
+          "302",
+          "304",
+          "307",
+          "308"
+        ]
+      },
+      "behaviour": {
+        "isOpeningNewTab": true,
+        "externalUrl": "https://www.dropbox.com/home"
+      },
+      "area": {
+        "type": "wrapper",
+        "properties": {
+          "id": "e595e32b-705e-4137-8ad3-71cfe45bad38"
+        }
+      },
+      "shape": {
+        "lg": {
+          "location": {
+            "x": 1,
             "y": 1
           },
           "size": {
@@ -267,18 +463,18 @@
       }
     },
     {
-      "id": "f374de2f-4303-4622-974f-109c61215c68",
-      "name": "AniWatch TV",
-      "url": "https://aniwatchtv.to/home",
+      "id": "4092ad98-6fab-4bb8-92ed-93c754dbdde1",
+      "name": "Kong",
+      "url": "https://manager.audryus.top",
       "appearance": {
-        "iconUrl": "https://aniwatchtv.to/images/favicon.png",
+        "iconUrl": "https://manager.audryus.top/favicon.ico",
         "appNameStatus": "normal",
         "positionAppName": "column",
         "lineClampAppName": 1,
         "appNameFontSize": 16
       },
       "network": {
-        "enabledStatusChecker": false,
+        "enabledStatusChecker": true,
         "statusCodes": [
           "200",
           "301",
@@ -289,8 +485,8 @@
         ]
       },
       "behaviour": {
-        "isOpeningNewTab": true,
-        "externalUrl": "https://aniwatchtv.to/home"
+        "isOpeningNewTab": false,
+        "externalUrl": "https://manager.audryus.top/"
       },
       "area": {
         "type": "wrapper",
@@ -301,106 +497,8 @@
       "shape": {
         "lg": {
           "location": {
-            "x": 1,
-            "y": 0
-          },
-          "size": {
-            "width": 1,
-            "height": 1
-          }
-        }
-      },
-      "integration": {
-        "type": null,
-        "properties": []
-      }
-    },
-    {
-      "id": "a278731f-5a9b-43cd-8e1e-a9f24872682b",
-      "name": "Pi-Hole",
-      "url": "http://localhost:8000/admin",
-      "appearance": {
-        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/pi-hole.svg",
-        "appNameStatus": "normal",
-        "positionAppName": "column",
-        "lineClampAppName": 1,
-        "appNameFontSize": 16
-      },
-      "network": {
-        "enabledStatusChecker": false,
-        "statusCodes": [
-          "200",
-          "301",
-          "302",
-          "304",
-          "307",
-          "308"
-        ]
-      },
-      "behaviour": {
-        "isOpeningNewTab": true,
-        "externalUrl": "http://localhost:8000/admin"
-      },
-      "area": {
-        "type": "wrapper",
-        "properties": {
-          "id": "e595e32b-705e-4137-8ad3-71cfe45bad38"
-        }
-      },
-      "shape": {
-        "lg": {
-          "location": {
-            "x": 7,
+            "x": 5,
             "y": 1
-          },
-          "size": {
-            "width": 1,
-            "height": 1
-          }
-        }
-      },
-      "integration": {
-        "type": null,
-        "properties": []
-      }
-    },
-    {
-      "id": "73924b09-fdf9-43bb-ab7a-ece12b0b090f",
-      "name": "Rico",
-      "url": "https://www.rico.com.vc/login",
-      "appearance": {
-        "iconUrl": "https://www.rico.com.vc/login/favicon.png",
-        "appNameStatus": "normal",
-        "positionAppName": "column",
-        "lineClampAppName": 1,
-        "appNameFontSize": 16
-      },
-      "network": {
-        "enabledStatusChecker": false,
-        "statusCodes": [
-          "200",
-          "301",
-          "302",
-          "304",
-          "307",
-          "308"
-        ]
-      },
-      "behaviour": {
-        "isOpeningNewTab": true,
-        "externalUrl": "https://www.rico.com.vc/login/"
-      },
-      "area": {
-        "type": "wrapper",
-        "properties": {
-          "id": "e595e32b-705e-4137-8ad3-71cfe45bad38"
-        }
-      },
-      "shape": {
-        "lg": {
-          "location": {
-            "x": 3,
-            "y": 0
           },
           "size": {
             "width": 1,
@@ -425,7 +523,7 @@
         "appNameFontSize": 16
       },
       "network": {
-        "enabledStatusChecker": true,
+        "enabledStatusChecker": false,
         "statusCodes": [
           "200",
           "301",
@@ -463,11 +561,11 @@
       }
     },
     {
-      "id": "911aeaeb-df0f-4e63-89d9-060903c400fb",
-      "name": "Twitch",
-      "url": "https://www.twitch.tv",
+      "id": "e4500b44-4cdf-4112-a310-ff527c4f5375",
+      "name": "Q-dance",
+      "url": "https://q-dance.com",
       "appearance": {
-        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/twitch.svg",
+        "iconUrl": "https://www.q-dance.com/static/images/favicon/favicon-32x32.png",
         "appNameStatus": "normal",
         "positionAppName": "column",
         "lineClampAppName": 1,
@@ -486,7 +584,7 @@
       },
       "behaviour": {
         "isOpeningNewTab": true,
-        "externalUrl": "https://www.twitch.tv"
+        "externalUrl": "https://q-dance.com"
       },
       "area": {
         "type": "wrapper",
@@ -497,7 +595,7 @@
       "shape": {
         "lg": {
           "location": {
-            "x": 0,
+            "x": 2,
             "y": 1
           },
           "size": {
@@ -523,7 +621,7 @@
         "appNameFontSize": 16
       },
       "network": {
-        "enabledStatusChecker": true,
+        "enabledStatusChecker": false,
         "statusCodes": [
           "200",
           "301",
@@ -561,55 +659,6 @@
       }
     },
     {
-      "id": "87f38405-16c7-4575-8674-7cbd40023c69",
-      "name": "Youtube",
-      "url": "https://www.youtube.com",
-      "appearance": {
-        "iconUrl": "https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/youtube-kids.svg",
-        "appNameStatus": "normal",
-        "positionAppName": "column",
-        "lineClampAppName": 1,
-        "appNameFontSize": 16
-      },
-      "network": {
-        "enabledStatusChecker": false,
-        "statusCodes": [
-          "200",
-          "301",
-          "302",
-          "304",
-          "307",
-          "308"
-        ]
-      },
-      "behaviour": {
-        "isOpeningNewTab": false,
-        "externalUrl": "https://www.youtube.com/"
-      },
-      "area": {
-        "type": "wrapper",
-        "properties": {
-          "id": "e595e32b-705e-4137-8ad3-71cfe45bad38"
-        }
-      },
-      "shape": {
-        "lg": {
-          "location": {
-            "x": 0,
-            "y": 0
-          },
-          "size": {
-            "width": 1,
-            "height": 1
-          }
-        }
-      },
-      "integration": {
-        "type": null,
-        "properties": []
-      }
-    },
-    {
       "id": "a69c91c6-7951-468a-a227-0af08cb3a77e",
       "name": "gmail",
       "url": "https://mail.google.com",
@@ -621,7 +670,7 @@
         "appNameFontSize": 16
       },
       "network": {
-        "enabledStatusChecker": true,
+        "enabledStatusChecker": false,
         "statusCodes": [
           "200",
           "301",
@@ -659,11 +708,11 @@
       }
     },
     {
-      "id": "fdb71ef3-c048-4cdd-bba1-3dc9526f4a2b",
-      "name": "DropBox",
-      "url": "https://www.dropbox.com/home",
+      "id": "eb7e57d3-fc0b-4616-bd95-695e79ec352e",
+      "name": "Real Hardstyle",
+      "url": "https://realhardstyle.nl",
       "appearance": {
-        "iconUrl": "https://cdn.jsdelivr.net/gh/PapirusDevelopmentTeam/papirus_icons/src/apps_dropbox.svg",
+        "iconUrl": "https://realhardstyle.nl/wp-content/uploads/2019/06/favicon.png",
         "appNameStatus": "normal",
         "positionAppName": "column",
         "lineClampAppName": 1,
@@ -682,7 +731,7 @@
       },
       "behaviour": {
         "isOpeningNewTab": true,
-        "externalUrl": "https://www.dropbox.com/home"
+        "externalUrl": "https://realhardstyle.nl/"
       },
       "area": {
         "type": "wrapper",
@@ -693,7 +742,7 @@
       "shape": {
         "lg": {
           "location": {
-            "x": 1,
+            "x": 3,
             "y": 1
           },
           "size": {
@@ -830,7 +879,7 @@
         "enabledLeftSidebar": false,
         "enabledRightSidebar": false,
         "enabledDocker": false,
-        "enabledPing": false,
+        "enabledPing": true,
         "enabledSearchbar": true
       },
       "pageTitle": "Homarr ⭐️",
